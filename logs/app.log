@@ -1,0 +1,351 @@
+2025-09-21 10:59:02,125 - INFO - Custom CSS styles applied.
+2025-09-21 10:59:02,126 - INFO - Sidebar content rendered.
+2025-09-21 10:59:02,126 - INFO - Main welcome content rendered.
+2025-09-21 10:59:10,264 - INFO - Loading embedding model from: sentence-transformers/all-mpnet-base-v2
+2025-09-21 10:59:10,278 - INFO - Use pytorch device_name: mps
+2025-09-21 10:59:10,278 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-09-21 10:59:14,564 - INFO - Embedding models loaded and cached.
+2025-09-21 10:59:14,565 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:14,566 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 10:59:14,576 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.010s]
+2025-09-21 10:59:14,576 - INFO - Index 'documents' already exists.
+2025-09-21 10:59:14,586 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.010s]
+2025-09-21 10:59:14,586 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 10:59:18,126 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:18,128 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 10:59:18,136 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 10:59:18,136 - INFO - Index 'documents' already exists.
+2025-09-21 10:59:18,143 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.007s]
+2025-09-21 10:59:18,144 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 10:59:18,899 - INFO - File '2508.10104v1.pdf' removed from disk.
+2025-09-21 10:59:18,899 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:18,952 - INFO - POST http://localhost:9200/documents/_delete_by_query [status:200 request:0.053s]
+2025-09-21 10:59:18,952 - INFO - Deleted documents where document_name='2508.10104v1.pdf' from index 'documents'.
+2025-09-21 10:59:19,573 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:19,573 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 10:59:19,580 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.006s]
+2025-09-21 10:59:19,580 - INFO - Index 'documents' already exists.
+2025-09-21 10:59:19,585 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.006s]
+2025-09-21 10:59:19,585 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 10:59:23,209 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:23,209 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 10:59:23,215 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.005s]
+2025-09-21 10:59:23,215 - INFO - Index 'documents' already exists.
+2025-09-21 10:59:23,221 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.006s]
+2025-09-21 10:59:23,221 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 10:59:23,229 - INFO - Saved file '2508.10104v1.pdf' at 'uploaded_files/2508.10104v1.pdf'.
+2025-09-21 10:59:23,996 - INFO - Text cleaned successfully.
+2025-09-21 10:59:23,997 - INFO - Text normalized for chunking.
+2025-09-21 10:59:23,998 - INFO - Text divided into 168 chunks (size=300, overlap=100).
+2025-09-21 10:59:29,166 - INFO - Generated embeddings for 168 chunks.
+2025-09-21 10:59:29,167 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:29,555 - INFO - POST http://localhost:9200/_bulk [status:200 request:0.343s]
+2025-09-21 10:59:29,557 - INFO - Bulk indexed 168 documents into 'documents' with 0 errors.
+2025-09-21 10:59:29,557 - INFO - File '2508.10104v1.pdf' ingested successfully.
+2025-09-21 10:59:32,314 - INFO - Custom CSS successfully applied.
+2025-09-21 10:59:32,315 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:32,315 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 10:59:32,321 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.006s]
+2025-09-21 10:59:32,321 - INFO - Index 'documents' already exists.
+2025-09-21 10:59:32,322 - INFO - Sidebar configured with controls and branding.
+2025-09-21 10:59:39,483 - INFO - Custom CSS successfully applied.
+2025-09-21 10:59:39,485 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:39,487 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 10:59:39,495 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.008s]
+2025-09-21 10:59:39,496 - INFO - Index 'documents' already exists.
+2025-09-21 10:59:39,498 - INFO - Sidebar configured with controls and branding.
+2025-09-21 10:59:41,110 - INFO - Custom CSS successfully applied.
+2025-09-21 10:59:41,112 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:41,114 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 10:59:41,123 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.009s]
+2025-09-21 10:59:41,123 - INFO - Index 'documents' already exists.
+2025-09-21 10:59:41,127 - INFO - Sidebar configured with controls and branding.
+2025-09-21 10:59:45,262 - INFO - Custom CSS successfully applied.
+2025-09-21 10:59:45,264 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:45,265 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 10:59:45,273 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 10:59:45,273 - INFO - Index 'documents' already exists.
+2025-09-21 10:59:45,277 - INFO - Sidebar configured with controls and branding.
+2025-09-21 10:59:45,279 - INFO - User query captured.
+2025-09-21 10:59:45,280 - INFO - Performing hybrid search...
+2025-09-21 10:59:45,411 - INFO - OpenSearch client initialized and ready.
+2025-09-21 10:59:45,431 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.020s]
+2025-09-21 10:59:45,431 - INFO - Hybrid search executed for query='hello' with top_k=5.
+2025-09-21 10:59:45,431 - INFO - Hybrid search completed with 5 results.
+2025-09-21 10:59:45,431 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 10:59:45,431 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 10:59:50,072 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 10:59:50,960 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:00:08,727 - INFO - Custom CSS successfully applied.
+2025-09-21 11:00:08,729 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:00:08,731 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:00:08,740 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.009s]
+2025-09-21 11:00:08,740 - INFO - Index 'documents' already exists.
+2025-09-21 11:00:08,742 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:00:08,744 - INFO - User query captured.
+2025-09-21 11:00:08,744 - INFO - Performing hybrid search...
+2025-09-21 11:00:09,841 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:00:09,860 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.019s]
+2025-09-21 11:00:09,860 - INFO - Hybrid search executed for query='explain about attention is all you need' with top_k=5.
+2025-09-21 11:00:09,860 - INFO - Hybrid search completed with 5 results.
+2025-09-21 11:00:09,860 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:00:09,860 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:00:11,665 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:00:18,582 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:00:29,015 - INFO - Custom CSS successfully applied.
+2025-09-21 11:00:29,017 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:00:29,019 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:00:29,027 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.008s]
+2025-09-21 11:00:29,028 - INFO - Index 'documents' already exists.
+2025-09-21 11:00:29,030 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:00:29,033 - INFO - User query captured.
+2025-09-21 11:00:29,034 - INFO - Performing hybrid search...
+2025-09-21 11:00:30,196 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:00:30,214 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.017s]
+2025-09-21 11:00:30,214 - INFO - Hybrid search executed for query='explain about Dino paper' with top_k=5.
+2025-09-21 11:00:30,214 - INFO - Hybrid search completed with 5 results.
+2025-09-21 11:00:30,214 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:00:30,214 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:00:32,137 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:00:48,554 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:01:15,687 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:15,691 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:15,692 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:15,702 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.010s]
+2025-09-21 11:01:15,703 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:15,705 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:17,024 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:17,027 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:17,029 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:17,039 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.010s]
+2025-09-21 11:01:17,039 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:17,043 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:17,453 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:17,456 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:17,458 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:17,466 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.008s]
+2025-09-21 11:01:17,467 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:17,469 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:17,626 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:17,627 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:17,627 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:17,635 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 11:01:17,635 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:17,636 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:17,807 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:17,808 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:17,809 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:17,814 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.005s]
+2025-09-21 11:01:17,814 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:17,815 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:17,991 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:17,992 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:17,992 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:17,999 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.006s]
+2025-09-21 11:01:17,999 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:18,000 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:18,650 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:18,652 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:18,655 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:18,662 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 11:01:18,662 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:18,665 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:19,940 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:19,942 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:19,943 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:19,951 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 11:01:19,951 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:19,953 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:20,590 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:20,592 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:20,594 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:20,601 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 11:01:20,601 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:20,604 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:22,006 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:22,008 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:22,009 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:22,017 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 11:01:22,017 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:22,021 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:31,490 - INFO - Custom CSS successfully applied.
+2025-09-21 11:01:31,493 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:31,495 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:01:31,501 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.005s]
+2025-09-21 11:01:31,501 - INFO - Index 'documents' already exists.
+2025-09-21 11:01:31,504 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:01:31,507 - INFO - User query captured.
+2025-09-21 11:01:31,509 - INFO - Performing hybrid search...
+2025-09-21 11:01:31,564 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:01:31,585 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.020s]
+2025-09-21 11:01:31,585 - INFO - Hybrid search executed for query='explain about Dino paper' with top_k=10.
+2025-09-21 11:01:31,585 - INFO - Hybrid search completed with 10 results.
+2025-09-21 11:01:31,585 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:01:31,585 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:01:34,300 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:02:06,996 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:02:41,382 - INFO - Custom CSS styles applied.
+2025-09-21 11:02:41,382 - INFO - Sidebar content rendered.
+2025-09-21 11:02:41,383 - INFO - Main welcome content rendered.
+2025-09-21 11:02:45,922 - INFO - Custom CSS successfully applied.
+2025-09-21 11:02:45,922 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:02:45,923 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:02:45,928 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.006s]
+2025-09-21 11:02:45,929 - INFO - Index 'documents' already exists.
+2025-09-21 11:02:45,930 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:02:45,930 - INFO - Loading embedding model from: sentence-transformers/all-mpnet-base-v2
+2025-09-21 11:02:45,941 - INFO - Use pytorch device_name: mps
+2025-09-21 11:02:45,941 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-09-21 11:02:50,162 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-21 11:02:50,162 - INFO - Model 'llama3.2:1b' not found locally. Pulling from registry...
+2025-09-21 11:02:51,983 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-09-21 11:02:51,983 - INFO - Model 'llama3.2:1b' successfully pulled and ready.
+2025-09-21 11:02:51,985 - INFO - Embedding and Ollama models initialized.
+2025-09-21 11:02:58,207 - INFO - Custom CSS successfully applied.
+2025-09-21 11:02:58,211 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:02:58,213 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:02:58,221 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.008s]
+2025-09-21 11:02:58,221 - INFO - Index 'documents' already exists.
+2025-09-21 11:02:58,224 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:02:58,225 - INFO - User query captured.
+2025-09-21 11:02:58,227 - INFO - Performing hybrid search...
+2025-09-21 11:02:59,348 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:02:59,370 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.022s]
+2025-09-21 11:02:59,371 - INFO - Hybrid search executed for query='what is dinov3' with top_k=5.
+2025-09-21 11:02:59,371 - INFO - Hybrid search completed with 5 results.
+2025-09-21 11:02:59,371 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:02:59,371 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:03:01,079 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:03:03,605 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:03:42,322 - INFO - Custom CSS successfully applied.
+2025-09-21 11:03:42,323 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:03:42,324 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:03:42,329 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.005s]
+2025-09-21 11:03:42,330 - INFO - Index 'documents' already exists.
+2025-09-21 11:03:42,332 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:03:42,337 - INFO - User query captured.
+2025-09-21 11:03:42,338 - INFO - Performing hybrid search...
+2025-09-21 11:03:43,285 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:03:43,311 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.026s]
+2025-09-21 11:03:43,311 - INFO - Hybrid search executed for query='what is the size of the smallest model used in dinov3' with top_k=5.
+2025-09-21 11:03:43,311 - INFO - Hybrid search completed with 5 results.
+2025-09-21 11:03:43,311 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:03:43,311 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:03:44,988 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:03:46,860 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:04:10,849 - INFO - Custom CSS successfully applied.
+2025-09-21 11:04:10,851 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:04:10,852 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:04:10,860 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.008s]
+2025-09-21 11:04:10,860 - INFO - Index 'documents' already exists.
+2025-09-21 11:04:10,863 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:04:10,866 - INFO - User query captured.
+2025-09-21 11:04:10,867 - INFO - Performing hybrid search...
+2025-09-21 11:04:11,774 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:04:11,793 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.019s]
+2025-09-21 11:04:11,793 - INFO - Hybrid search executed for query='how many parameters are there in this model' with top_k=5.
+2025-09-21 11:04:11,793 - INFO - Hybrid search completed with 5 results.
+2025-09-21 11:04:11,793 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:04:11,793 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:04:13,745 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:04:14,862 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:04:32,788 - INFO - Custom CSS successfully applied.
+2025-09-21 11:04:32,790 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:04:32,792 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:04:32,801 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.008s]
+2025-09-21 11:04:32,801 - INFO - Index 'documents' already exists.
+2025-09-21 11:04:32,804 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:04:32,809 - INFO - User query captured.
+2025-09-21 11:04:32,810 - INFO - Performing hybrid search...
+2025-09-21 11:04:32,930 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:04:32,950 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.020s]
+2025-09-21 11:04:32,951 - INFO - Hybrid search executed for query='how many parameters are there in the smallest model' with top_k=5.
+2025-09-21 11:04:32,951 - INFO - Hybrid search completed with 5 results.
+2025-09-21 11:04:32,951 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:04:32,951 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:04:35,003 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:04:36,996 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:04:57,843 - INFO - Custom CSS successfully applied.
+2025-09-21 11:04:57,845 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:04:57,847 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:04:57,854 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 11:04:57,854 - INFO - Index 'documents' already exists.
+2025-09-21 11:04:57,857 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:04:57,861 - INFO - User query captured.
+2025-09-21 11:04:57,862 - INFO - Performing hybrid search...
+2025-09-21 11:04:58,809 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:04:58,828 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.018s]
+2025-09-21 11:04:58,828 - INFO - Hybrid search executed for query='how many parameters are there in the smallest dinov3 model
+' with top_k=5.
+2025-09-21 11:04:58,828 - INFO - Hybrid search completed with 5 results.
+2025-09-21 11:04:58,828 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:04:58,828 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:05:00,459 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:05:01,866 - INFO - Assistant response streamed and displayed.
+2025-09-21 11:05:21,370 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:21,370 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:05:21,375 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.005s]
+2025-09-21 11:05:21,375 - INFO - Index 'documents' already exists.
+2025-09-21 11:05:21,383 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.007s]
+2025-09-21 11:05:21,383 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 11:05:21,383 - WARNING - File '2508.10104v1.pdf' missing locally.
+2025-09-21 11:05:25,042 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:25,044 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:05:25,052 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.008s]
+2025-09-21 11:05:25,052 - INFO - Index 'documents' already exists.
+2025-09-21 11:05:25,062 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.009s]
+2025-09-21 11:05:25,062 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 11:05:25,062 - WARNING - File '2508.10104v1.pdf' missing locally.
+2025-09-21 11:05:25,065 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:25,102 - INFO - POST http://localhost:9200/documents/_delete_by_query [status:200 request:0.037s]
+2025-09-21 11:05:25,102 - INFO - Deleted documents where document_name='2508.10104v1.pdf' from index 'documents'.
+2025-09-21 11:05:25,719 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:25,720 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:05:25,725 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.006s]
+2025-09-21 11:05:25,725 - INFO - Index 'documents' already exists.
+2025-09-21 11:05:25,732 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.006s]
+2025-09-21 11:05:25,732 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 11:05:25,732 - WARNING - File '2508.10104v1.pdf' missing locally.
+2025-09-21 11:05:32,383 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:32,384 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:05:32,392 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.008s]
+2025-09-21 11:05:32,392 - INFO - Index 'documents' already exists.
+2025-09-21 11:05:32,403 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.010s]
+2025-09-21 11:05:32,403 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 11:05:36,457 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:36,457 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:05:36,464 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.006s]
+2025-09-21 11:05:36,464 - INFO - Index 'documents' already exists.
+2025-09-21 11:05:36,474 - INFO - POST http://localhost:9200/documents/_search [status:200 request:0.010s]
+2025-09-21 11:05:36,474 - INFO - Fetched indexed document names from OpenSearch.
+2025-09-21 11:05:36,479 - INFO - Saved file '2508.10104v1.pdf' at 'uploaded_files/2508.10104v1.pdf'.
+2025-09-21 11:05:37,253 - INFO - Text cleaned successfully.
+2025-09-21 11:05:37,253 - INFO - Text normalized for chunking.
+2025-09-21 11:05:37,254 - INFO - Text divided into 168 chunks (size=300, overlap=100).
+2025-09-21 11:05:42,334 - INFO - Generated embeddings for 168 chunks.
+2025-09-21 11:05:42,335 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:42,713 - INFO - POST http://localhost:9200/_bulk [status:200 request:0.333s]
+2025-09-21 11:05:42,714 - INFO - Bulk indexed 168 documents into 'documents' with 0 errors.
+2025-09-21 11:05:42,715 - INFO - File '2508.10104v1.pdf' ingested successfully.
+2025-09-21 11:05:47,927 - INFO - Custom CSS successfully applied.
+2025-09-21 11:05:47,929 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:47,931 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:05:47,939 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 11:05:47,939 - INFO - Index 'documents' already exists.
+2025-09-21 11:05:47,942 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:05:56,931 - INFO - Custom CSS successfully applied.
+2025-09-21 11:05:56,933 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:56,934 - INFO - Index configuration loaded from src/index_config.json.
+2025-09-21 11:05:56,941 - INFO - HEAD http://localhost:9200/documents [status:200 request:0.007s]
+2025-09-21 11:05:56,941 - INFO - Index 'documents' already exists.
+2025-09-21 11:05:56,944 - INFO - Sidebar configured with controls and branding.
+2025-09-21 11:05:56,950 - INFO - User query captured.
+2025-09-21 11:05:56,951 - INFO - Performing hybrid search...
+2025-09-21 11:05:57,017 - INFO - OpenSearch client initialized and ready.
+2025-09-21 11:05:57,036 - INFO - POST http://localhost:9200/documents/_search?search_pipeline=nlp-search-pipeline [status:200 request:0.019s]
+2025-09-21 11:05:57,036 - INFO - Hybrid search executed for query='how many parameters are there in the smallest dinov3 model' with top_k=5.
+2025-09-21 11:05:57,036 - INFO - Hybrid search completed with 5 results.
+2025-09-21 11:05:57,036 - INFO - Prompt successfully constructed with context and history.
+2025-09-21 11:05:57,036 - INFO - Initiating response stream from LLaMA model...
+2025-09-21 11:05:57,603 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-21 11:05:59,118 - INFO - Assistant response streamed and displayed.
