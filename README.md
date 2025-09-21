@@ -112,7 +112,7 @@ We use Python 3.11 for this project.
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/sathisha-iitg/build_your_local_RAG.git
 cd <repo-folder>
 ```
 
